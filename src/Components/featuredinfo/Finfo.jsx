@@ -1,5 +1,5 @@
 import React from 'react'
-import "./FeaturedInfo.css"
+
 
 
 export default function FeaturedInfo({title,revenue,profit}) {
