@@ -1,10 +1,19 @@
-import React from 'react'
-import "./Home.css"
+import React from "react";
+import FeaturedInfo from "../../featuredinfo/FeaturedInfo";
+import "./Home.css";
 
 export default function Home() {
-    return (
-        <div className="home">
-            Home
-        </div>
-    )
+  const data = [
+    { title: "Orders", revenue: "$4000", profit: "+12%" },
+    { title: "Payment", revenue: "$2200", profit: "-6%" },
+    { title: "Due Balance", revenue: "$1800", profit: "+8%" },
+  ];
+  return (
+    <div className="home">
+        <div className="featured" >
+       {data.map((user,index)=>{return(
+           <div className="featuredItems"><FeaturedInfo key={index} title={user.title} revenue={user.revenue} profit={user.profit} /></div>       )})} 
+      </div>
+    </div>
+  );
 }
