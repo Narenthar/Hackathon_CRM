@@ -16,4 +16,3 @@ export default function FeaturedInfo({title,revenue,profit}) {
         </div>
     )
 }
-
