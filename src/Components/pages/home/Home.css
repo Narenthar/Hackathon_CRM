@@ -1,6 +1,6 @@
 .home{
     flex: 4;
-    background-color: #c8d8e4;
+    background-color: rgb(245, 245, 245);
 
   }
   .featured{
@@ -14,6 +14,7 @@
     
 }
 .featuredItems{
+    border-radius: 10px;
     box-shadow: 7px 3px 14px -6px rgba(0,0,0,0.96);
     -webkit-box-shadow: 7px 3px 14px -6px rgba(0,0,0,0.96);
     -moz-box-shadow: 7px 3px 14px -6px rgba(0,0,0,0.96);
